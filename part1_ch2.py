@@ -3,5 +3,10 @@
 message = "Hello World! I'm pretty hungry for a burrito.\n"
 print(message)
 
-message = "Now I need to go get something to eat!"
+message = "Now I need to go get something to eat!\n"
 print(message)
+
+name = "ada lovelace"
+print(name.title())
+print(name.upper())
+print(name.lower())
