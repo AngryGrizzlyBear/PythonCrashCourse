@@ -37,3 +37,9 @@ motorcycles.append('suzuki')
 motorcycles.append('harley')
 
 print(motorcycles)
+
+motorcycles = ['honda', 'yamaha', 'suzuki']
+
+motorcycles.insert(0, 'ducati')
+print(motorcycles)
+
