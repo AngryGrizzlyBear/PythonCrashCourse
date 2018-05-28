@@ -17,8 +17,15 @@ name = ["Kermmit", "Shawn", "Steve", "Nathan"]
 message = "Hello, " + name[2].title() + "."
 print(message)
 
-motercycles = ['honda', 'yamaha', 'suzuki']
-print(motercycles)
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
 
-motercycles[0] = 'ducati'
-print(motercycles)
+motorcycles[0] = 'ducati'
+print(motorcycles)
+
+# or
+
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+motorcycles.append('ducati')
+print(motorcycles)
