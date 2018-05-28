@@ -50,7 +50,7 @@ famous_quote = """
 print(famous_person + " said" + famous_quote)
 
 # Numbers
-
+#
 age = 42
 message = "Happy " + str(age) + "nd Birthday!"
 print(message)
@@ -60,3 +60,7 @@ print(5 + 3)
 print(10 - 2)
 print (2 * 4)
 print (48 / 6)
+
+# This is all mostly review, coming over from Python 2.
+# This is mostly just a refresher.
+# This is also getting me used to writing in Python 3 over Python 2.
