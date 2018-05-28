@@ -29,3 +29,11 @@ motorcycles = ['honda', 'yamaha', 'suzuki']
 print(motorcycles)
 motorcycles.append('ducati')
 print(motorcycles)
+
+motorcycles = []
+
+motorcycles.append('toyota')
+motorcycles.append('suzuki')
+motorcycles.append('harley')
+
+print(motorcycles)
