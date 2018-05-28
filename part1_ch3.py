@@ -9,3 +9,9 @@ print(bicycles[-1].title())
 
 message = "My first bicycle was a " + bicycles[0].title() + "."
 print(message)
+
+# 3-1
+name = ["Kermmit", "Shawn", "Steve", "Nathan"]
+#3-2
+message = "Hello, " + name[2].title() + "."
+print(message)
