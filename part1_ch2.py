@@ -48,3 +48,15 @@ famous_quote = """
                 and more fundamental than that.'
                """
 print(famous_person + " said" + famous_quote)
+
+# Numbers
+
+age = 42
+message = "Happy " + str(age) + "nd Birthday!"
+print(message)
+# 2-8
+
+print(5 + 3)
+print(10 - 2)
+print (2 * 4)
+print (48 / 6)
