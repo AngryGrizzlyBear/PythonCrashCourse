@@ -12,6 +12,13 @@ print(message)
 
 # 3-1
 name = ["Kermmit", "Shawn", "Steve", "Nathan"]
+
 #3-2
 message = "Hello, " + name[2].title() + "."
 print(message)
+
+motercycles = ['honda', 'yamaha', 'suzuki']
+print(motercycles)
+
+motercycles[0] = 'ducati'
+print(motercycles)
