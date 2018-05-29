@@ -38,11 +38,13 @@ motorcycles.append('harley')
 
 print(motorcycles)
 
+# insert
 motorcycles = ['honda', 'yamaha', 'suzuki']
 
 motorcycles.insert(0, 'ducati')
 print(motorcycles)
 
+# del
 motorcycles = ['honda', 'yamaha', 'suzuki']
 print(motorcycles)
 
@@ -53,3 +55,17 @@ print(motorcycles)
 motorcycles = ['honda', 'yamaha', 'suzuki']
 del motorcycles[1]
 print(motorcycles)
+
+# popped
+
+motorcycles = ['honda1', 'yamaha', 'suzuki']
+print(motorcycles)
+
+popped_motorcycle = motorcycles.pop()
+print(motorcycles)
+print(popped_motorcycle)
+
+motorcycles = ['honda', 'yamaha', 'suzuki']
+
+first_owned = motorcycles.pop(0)
+print('The first motorcyle I owned was a ' + first_owned.title() + '.')
