@@ -56,7 +56,7 @@ motorcycles = ['honda', 'yamaha', 'suzuki']
 del motorcycles[1]
 print(motorcycles)
 
-# popped
+# pop
 
 motorcycles = ['honda1', 'yamaha', 'suzuki']
 print(motorcycles)
@@ -69,3 +69,19 @@ motorcycles = ['honda', 'yamaha', 'suzuki']
 
 first_owned = motorcycles.pop(0)
 print('The first motorcyle I owned was a ' + first_owned.title() + '.')
+
+# remove
+
+motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
+print(motorcycles)
+
+motorcycles.remove('ducati')
+print(motorcycles)
+
+motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
+print(motorcycles)
+
+too_expensive = 'ducati'
+motorcycles.remove(too_expensive)
+print(motorcycles)
+print("\nA " + too_expensive.title() + " is too expensive for me.")
