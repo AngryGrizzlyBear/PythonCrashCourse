@@ -92,3 +92,13 @@ print("\n" + guest_list[0] + ", You have been invited to my party!")
 print("\n" + guest_list[3] + ", You are most welcome to come to enjou the festivities.")
 print("\n" + guest_list[1] + ", You can bring yourself and your mother to my party")
 print("\n" + guest_list[2] + ", You can wear any type of shoes for my party! You're invited!")
+
+# 3-5 Changing Guest List
+
+print("\nLooks like " + guest_list[2] + " can't make it. That's too bad. Take him off the list.")
+guest_list.remove('Stephen')
+print("\nThere, he's gone! Invite someone else to replace him.")
+guest_list.insert(2, 'Samantha')
+print("\nStephen has been replaced by " + guest_list[2] + ". You are now invited to my party.")
+print("\n" + guest_list[0] + ", " + guest_list[1] + ", and " + guest_list[3] + " are all still welcomed to my party.")
+print("\nPlease resend them inviations, as well as an invitation to Samantha.")
