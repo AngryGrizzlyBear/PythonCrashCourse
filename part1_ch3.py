@@ -85,3 +85,10 @@ too_expensive = 'ducati'
 motorcycles.remove(too_expensive)
 print(motorcycles)
 print("\nA " + too_expensive.title() + " is too expensive for me.")
+
+# 3-4 Guest List
+guest_list = ['Sandra', 'Chris', 'Stephen', 'Mary']
+print("\n" + guest_list[0] + ", You have been invited to my party!")
+print("\n" + guest_list[3] + ", You are most welcome to come to enjou the festivities.")
+print("\n" + guest_list[1] + ", You can bring yourself and your mother to my party")
+print("\n" + guest_list[2] + ", You can wear any type of shoes for my party! You're invited!")
