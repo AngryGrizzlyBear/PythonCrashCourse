@@ -137,5 +137,11 @@ print("\nSorry "  + removed_guest_three + ", you're no longer invited to my part
 removed_guest_four = guest_list.pop(1)
 print("\nSorry "  + removed_guest_four + ", you're no longer invited to my party. Not enough space.")
 
-print("\n Only " + guest_list[0] + " and " + guest_list[1] + " are invited now. Everyone else, go home.")
+print("\nOnly " + guest_list[0] + " and " + guest_list[1] + " are invited now. Everyone else, go home.")
+
+# Delete to clear the list
+
+del guest_list[0]
+del guest_list[0]
+print(guest_list)
 
