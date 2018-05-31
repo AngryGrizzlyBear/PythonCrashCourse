@@ -193,3 +193,8 @@ print(sorted(location))
 # Original order.
 print("\n")
 print(location)
+
+# Reverse order.
+print("\n")
+location.reverse()
+print(location)
