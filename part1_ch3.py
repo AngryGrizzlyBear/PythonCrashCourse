@@ -186,6 +186,10 @@ print("\n")
 location = ['Japan', 'Wyoming', 'Montana', 'Alaksa', 'Idaho']
 print(location)
 
-# sorted
+# Sorted
 print("\n")
 print(sorted(location))
+
+# Original order.
+print("\n")
+print(location)
