@@ -145,3 +145,8 @@ del guest_list[0]
 del guest_list[0]
 print(guest_list)
 
+# Organizing a List
+
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+cars.sort()
+print(cars)
