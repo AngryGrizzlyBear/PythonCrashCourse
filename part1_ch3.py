@@ -166,3 +166,11 @@ print(sorted(cars))
 
 print("\nHere is the original list again:")
 print(cars)
+
+# Printing a list in Reverse Order
+print("\n")
+car = ['bmw', 'audi', 'toyota', 'subaru']
+print(cars)
+
+cars.reverse()
+print(cars)
