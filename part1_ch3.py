@@ -198,3 +198,8 @@ print(location)
 print("\n")
 location.reverse()
 print(location)
+
+# Original order
+print("\n")
+location.reverse()
+print(location)
