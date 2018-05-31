@@ -203,3 +203,9 @@ print(location)
 print("\n")
 location.reverse()
 print(location)
+
+# Sort
+print("\n")
+location.sort()
+print(location)
+
