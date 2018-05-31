@@ -213,3 +213,8 @@ print(location)
 print("\n")
 location.sort(reverse=True)
 print(location)
+
+# 3-9 Dinner Guest Revisted
+print("\n")
+guest_list = ['Sandra', 'Chris', 'Stephen', 'Mary']
+print(len(guest_list))
