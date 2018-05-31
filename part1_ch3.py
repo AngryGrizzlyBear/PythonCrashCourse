@@ -121,4 +121,21 @@ print('\n' + guest_list[6] + " woll be added to the party, please notify her at 
 # getting ready to pop some names off of the list.
 print("\nUh-oh. Looks like we won't be able to get that dinner reseveration. Time to remove some people"
       " off of the list!")
-guest_list.pop()
+
+removed_guest_zero = guest_list.pop(0)
+print("\nSorry "  + removed_guest_zero + ", you're no longer invited to my party. Not enough space.")
+
+removed_guest_one = guest_list.pop(1)
+print("\nSorry "  + removed_guest_one + ", you're no longer invited to my party. Not enough space.")
+
+removed_guest_two = guest_list.pop(2)
+print("\nSorry "  + removed_guest_two + ", you're no longer invited to my party. Not enough space.")
+
+removed_guest_three = guest_list.pop(3)
+print("\nSorry "  + removed_guest_three + ", you're no longer invited to my party. Not enough space.")
+
+removed_guest_four = guest_list.pop(1)
+print("\nSorry "  + removed_guest_four + ", you're no longer invited to my party. Not enough space.")
+
+print("\n Only " + guest_list[0] + " and " + guest_list[1] + " are invited now. Everyone else, go home.")
+
