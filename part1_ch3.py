@@ -185,3 +185,7 @@ print("\n")
 # 3-8 exercise
 location = ['Japan', 'Wyoming', 'Montana', 'Alaksa', 'Idaho']
 print(location)
+
+# sorted
+print("\n")
+print(sorted(location))
