@@ -180,6 +180,8 @@ print(cars)
 print("\n")
 car = ['bmw', 'audi', 'toyota', 'subaru']
 print(len(cars))
+print("\n")
 
 # 3-8 exercise
 location = ['Japan', 'Wyoming', 'Montana', 'Alaksa', 'Idaho']
+print(location)
