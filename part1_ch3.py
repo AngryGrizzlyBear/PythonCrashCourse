@@ -102,3 +102,18 @@ guest_list.insert(2, 'Samantha')
 print("\nStephen has been replaced by " + guest_list[2] + ". You are now invited to my party.")
 print("\n" + guest_list[0] + ", " + guest_list[1] + ", and " + guest_list[3] + " are all still welcomed to my party.")
 print("\nPlease resend them inviations, as well as an invitation to Samantha.")
+
+# 3-6 More Guest
+
+print("\n" + guest_list[0] + ", " + guest_list[1] + ", " + guest_list[2] + ", and " + guest_list[3] +
+      " should be informed that I have found a larger table. Please inform them of the change. I will be adding"
+      " three more guest to the party!")
+
+guest_list.insert(0, 'Thomas')
+print('\n' + guest_list[0] + " will be added to the party, please send him an invitation.")
+
+guest_list.insert(2, 'William')
+print('\n' + guest_list[2] + " will be added to the party, please send him an invitation." )
+
+guest_list.append('Sophie')
+print('\n' + guest_list[6] + " woll be added to the party, please notify her at once.")
