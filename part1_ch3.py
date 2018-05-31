@@ -209,3 +209,7 @@ print("\n")
 location.sort()
 print(location)
 
+# Reverse Sort
+print("\n")
+location.sort(reverse=True)
+print(location)
