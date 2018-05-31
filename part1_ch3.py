@@ -157,7 +157,7 @@ cars.sort(reverse=True)
 print(cars)
 print("\n")
 
-
+cars = ['bmw', 'audi', 'toyota', 'subaru']
 print("Here is athe original list:")
 print(cars)
 
