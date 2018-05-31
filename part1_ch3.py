@@ -117,3 +117,8 @@ print('\n' + guest_list[2] + " will be added to the party, please send him an in
 
 guest_list.append('Sophie')
 print('\n' + guest_list[6] + " woll be added to the party, please notify her at once.")
+
+# getting ready to pop some names off of the list.
+print("\nUh-oh. Looks like we won't be able to get that dinner reseveration. Time to remove some people"
+      " off of the list!")
+guest_list.pop()
