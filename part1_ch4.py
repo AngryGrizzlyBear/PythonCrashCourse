@@ -16,3 +16,5 @@ magicians = ['alice', 'david', 'carolina']
 for magician in magicians:
     print("\n" + magician.title() + ", you did a fantastic trick!")
     print("Can't wait to see your next trick, " + magician.title() + "!\n")
+
+print("Thank you everyone! That was a wonderful performance! Great magic show!")
