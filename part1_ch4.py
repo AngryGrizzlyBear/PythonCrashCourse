@@ -26,3 +26,9 @@ for pizza in pizzas:
 
 print("\nI really love these topings. These topings make pizza taste ten times"
       " better! I really like pizza!")
+
+doggo = ['Akita', 'Shiba Inu', 'Malamute']
+for dog in doggo:
+    print("\nA " + dog.title() + " would make a really great pet!")
+
+print("\nThese are really great dogs!")
