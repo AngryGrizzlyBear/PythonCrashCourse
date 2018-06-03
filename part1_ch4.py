@@ -83,6 +83,12 @@ numbers = range(1, 100000001)
 #for number in numbers:
  #   print(number)
 
+# 4-5 Min, Max Sum
 print(max(numbers))
 print(min(numbers))
 print(sum(numbers))
+
+# 4-6 Odd Numbers
+more_numbers = list(range(1,21,4))
+for num in more_numbers:
+    print(num)
