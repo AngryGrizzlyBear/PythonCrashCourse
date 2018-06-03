@@ -80,5 +80,9 @@ for count in counting:
 
 # 4-4 One Million
 numbers = range(1, 100000001)
-for number in numbers:
-    print(number)
+#for number in numbers:
+ #   print(number)
+
+print(max(numbers))
+print(min(numbers))
+print(sum(numbers))
