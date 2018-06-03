@@ -18,3 +18,8 @@ for magician in magicians:
     print("Can't wait to see your next trick, " + magician.title() + "!\n")
 
 print("Thank you everyone! That was a wonderful performance! Great magic show!")
+
+# 4-1 Exercise Review
+pizzas = ['Meat Lovers', 'Hawaiian', 'Pepperoni']
+for pizza in pizzas:
+    print("\nI like " + pizza.title() + " pizza!")
