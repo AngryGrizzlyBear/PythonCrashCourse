@@ -72,8 +72,13 @@ print(sum(digits))
 square = [value**2 for value in range(1,11)]
 print(squares)
 
-#4-3 Exercise Counting to Twenty
+# 4-3 Exercise Counting to Twenty
 
 counting = range(1,21)
 for count in counting:
     print(count)
+
+# 4-4 One Million
+numbers = range(1, 100000001)
+for number in numbers:
+    print(number)
