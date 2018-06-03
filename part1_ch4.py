@@ -37,3 +37,7 @@ print("\nThese are really great dogs!")
 for value in range(1,5):
     print("\n")
     print(value)
+
+for value in range(1,6):
+    print("\n")
+    print(value)
