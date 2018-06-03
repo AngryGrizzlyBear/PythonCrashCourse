@@ -32,3 +32,8 @@ for dog in doggo:
     print("\nA " + dog.title() + " would make a really great pet!")
 
 print("\nThese are really great dogs!")
+
+# Using the range function
+for value in range(1,5):
+    print("\n")
+    print(value)
