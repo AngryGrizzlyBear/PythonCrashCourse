@@ -23,3 +23,6 @@ print("Thank you everyone! That was a wonderful performance! Great magic show!")
 pizzas = ['Meat Lovers', 'Hawaiian', 'Pepperoni']
 for pizza in pizzas:
     print("\nI like " + pizza.title() + " pizza!")
+
+print("\nI really love these topings. These topings make pizza taste ten times"
+      " better! I really like pizza!")
