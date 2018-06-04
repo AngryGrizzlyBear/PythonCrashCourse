@@ -92,12 +92,10 @@ print(sum(numbers))
 more_numbers = list(range(1,21,4))
 for num in more_numbers:
     print(num)
-
+print("\nNew Space")
 # 4-8 Threes
 
-threes = []
-for value in range(1,30):
-    three = value**3
-    threes.append(three)
+threes = list(range(3, 31, 3))
 
-print(three)
+for number in threes:
+    print(number)
