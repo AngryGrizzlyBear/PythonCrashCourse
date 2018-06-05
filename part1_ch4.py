@@ -113,3 +113,7 @@ for cube in cubes:
 # Slice
 players = ['charles', 'martina', 'michael', 'florence', 'eli']
 print(players[0:3])
+
+# More Slice Practice
+players = ['charles', 'martina', 'michael', 'florence', 'eli']
+print(players[1:4])
