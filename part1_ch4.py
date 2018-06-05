@@ -160,3 +160,8 @@ print(my_foods)
 print("\nMy Friend's faborite foods are:")
 print(friend_foods)
 
+# 4-10 Slices
+fruits = ['apple', 'orange', 'pears', 'grapefruit', 'grapes', 'strawberries']
+print('\nThe first three items in the list are:')
+for fruit in fruits[:3]:
+    print(fruit.title())
