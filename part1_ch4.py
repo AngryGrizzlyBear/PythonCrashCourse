@@ -121,3 +121,8 @@ print(players[1:4])
 # Even more slicing
 players = ['charles', 'martina', 'michael', 'florence', 'eli']
 print(players[:4])
+
+# More slciing examples
+players = ['charles', 'martina', 'michael', 'florence', 'eli']
+print(players[2:])
+
