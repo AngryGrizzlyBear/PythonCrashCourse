@@ -109,3 +109,7 @@ cubes = [number**3 for number in range(1, 11)]
 
 for cube in cubes:
     print(cube)
+
+# Slice
+players = ['charles', 'martina', 'michael', 'florence', 'eli']
+print(players[0:3])
