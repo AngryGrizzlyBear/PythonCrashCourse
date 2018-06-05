@@ -165,3 +165,7 @@ fruits = ['apple', 'orange', 'pears', 'grapefruit', 'grapes', 'strawberries']
 print('\nThe first three items in the list are:')
 for fruit in fruits[:3]:
     print(fruit.title())
+
+print('\nThe middle items in the list are:')
+for fruit in fruits[1:5]:
+    print(fruit.title())
