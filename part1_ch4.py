@@ -189,4 +189,7 @@ print("\nMy friend likes these topings:")
 for pizza in friend_pizza:
     print(pizza)
 
-
+# Tuple
+dimensions = (200, 50)
+print(dimensions[0])
+print(dimensions[1])
