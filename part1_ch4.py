@@ -173,3 +173,20 @@ for fruit in fruits[1:5]:
 print('\nThe last three items in the list are:')
 for fruit in fruits[2:6]:
     print(fruit.title())
+
+# new pizza list
+good_pizzas = ['Meat Lovers', 'Hawaiian', 'Pepperoni', 'Sausage']
+friend_pizza = good_pizzas[:]
+
+good_pizzas.append('olives')
+friend_pizza.append('chicken')
+
+print("\nI like these topings:")
+for pizza in good_pizzas:
+    print(pizza)
+
+print("\nMy friend likes these topings:")
+for pizza in friend_pizza:
+    print(pizza)
+
+
