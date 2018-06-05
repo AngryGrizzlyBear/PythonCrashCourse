@@ -95,7 +95,10 @@ for num in more_numbers:
 print("\nNew Space")
 # 4-8 Threes
 
-threes = list(range(3, 31, 3))
+cubes = []
+for number in range(1, 11):
+    cube = number**3
+    cubes.append(cube)
 
-for number in threes:
-    print(number)
+for cube in cubes:
+    print(cube)
