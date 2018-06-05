@@ -169,3 +169,7 @@ for fruit in fruits[:3]:
 print('\nThe middle items in the list are:')
 for fruit in fruits[1:5]:
     print(fruit.title())
+
+print('\nThe last three items in the list are:')
+for fruit in fruits[2:6]:
+    print(fruit.title())
