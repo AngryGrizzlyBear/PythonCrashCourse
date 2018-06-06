@@ -33,3 +33,25 @@ if user not in banned_users:
 
 game_active = True
 can_edit = False
+
+# 5 - 1 Conditional Tests
+car = 'subaru'
+print("Is car == 'subaru'? I predict True.")
+print(car == 'subaru')
+
+print("\nIs car = 'audi? I predict False.")
+print(car == 'audi')
+
+requested_car = 'jeep'
+if requested_car != 'bmw':
+    print("\nI don't want that car!")
+    print(requested_car == 'bmw')
+
+new_car = 'toyota'
+print(new_car.lower() == 'toyota')
+
+age_limit = 21
+age_zero = 23
+age_one = 24
+if age_zero and age_one >= age_limit:
+    print("You're old enough to get in.")
