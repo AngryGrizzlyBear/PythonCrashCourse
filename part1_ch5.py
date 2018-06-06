@@ -57,3 +57,9 @@ if age_zero and age_one >= age_limit:
     print("You're old enough to get in.")
 if age_zero or age_one == age_limit:
     print("Huh? This doesn't make any sense.")
+
+registered_players = ['Thomas', 'Sebastian', 'Christina']
+not_registered_players = 'Sam'
+
+if not_registered_players not in registered_players:
+    print(not_registered_players.title() + ", You need to register to play this game.")
