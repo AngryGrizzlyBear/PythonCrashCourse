@@ -72,5 +72,8 @@ age = 18
 if age >= 18:
     print("\nYou are old enough to vote!")
     print("Have you registered to vote yet?")
+elif age >= 17:
+    print("\nYou definitely need to vote.")
 else:
-    print("You're not old enough to vote.")
+    print("\nYou're not old enough to vote.")
+    print("Please register to vote as soon as you turn 18!")
