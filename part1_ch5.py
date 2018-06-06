@@ -121,6 +121,16 @@ alien_color = 'red'
 if alien_color == 'green':
     print("You've earned 5 points!")
 
-# 5-4
+# 5-4 Alien Colors 2
 else:
     print("You've earned 10 points!")
+
+# 5-5 Alien Colors 3
+
+alien_color = 'red'
+if alien_color == 'green':
+    print("\nYou've earned 5 points!")
+elif alien_color == 'yellow':
+    print("\nYou've earned 10 points!")
+else:
+    print("\nYou've earned 15 points!")
