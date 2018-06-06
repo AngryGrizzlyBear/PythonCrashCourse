@@ -63,3 +63,6 @@ not_registered_players = 'Sam'
 
 if not_registered_players not in registered_players:
     print(not_registered_players.title() + ", You need to register to play this game.")
+
+for player in registered_players:
+    print(player + ', welcome to the game!')
