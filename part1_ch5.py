@@ -77,3 +77,13 @@ elif age >= 17:
 else:
     print("\nYou're not old enough to vote.")
     print("Please register to vote as soon as you turn 18!")
+
+# Amusement Park
+age = 20
+
+if age < 4:
+    print("Your admission costs $0.")
+elif age < 18:
+    print("Your admission costs $5.")
+else:
+    print("Your admission costs $10.")
