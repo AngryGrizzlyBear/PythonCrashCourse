@@ -7,3 +7,10 @@ for car in cars:
         print(car.upper())
     else:
         print(car.title())
+
+# Checking for Inequality
+
+requested_topping = 'mushrooms'
+
+if requested_topping != 'anchovies':
+    print("Hold the anchovies!")
