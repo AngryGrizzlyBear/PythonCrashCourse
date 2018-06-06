@@ -55,3 +55,5 @@ age_zero = 23
 age_one = 24
 if age_zero and age_one >= age_limit:
     print("You're old enough to get in.")
+if age_zero or age_one == age_limit:
+    print("Huh? This doesn't make any sense.")
