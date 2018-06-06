@@ -152,3 +152,18 @@ elif age < 65:
 else:
      life = 'elder'
 print("You're just a " + life + ".")
+
+# 5-7 Favorite Fruit
+
+favorite_fruit = ['bananas', 'green apples', 'pineapples']
+
+if 'bananas' in favorite_fruit:
+    print("\nYou really like bananas!")
+if 'green apples' in favorite_fruit:
+    print("You really like green apples!")
+if 'pineapples' in favorite_fruit:
+    print("You really like pineapples!")
+if 'kiwi' in favorite_fruit:
+    print("You really like kiwis!")
+if 'strawberries' in favorite_fruit:
+    print("You really like strawberries!")
