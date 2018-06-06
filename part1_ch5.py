@@ -68,8 +68,9 @@ for player in registered_players:
     print(player + ', welcome to the game!')
 
 # Simple if statements: Voting
-age = 17
+age = 18
 if age >= 18:
-    print("You are old enough to vote!")
+    print("\nYou are old enough to vote!")
+    print("Have you registered to vote yet?")
 else:
     print("You're not old enough to vote.")
