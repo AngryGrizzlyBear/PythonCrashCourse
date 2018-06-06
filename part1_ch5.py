@@ -134,3 +134,21 @@ elif alien_color == 'yellow':
     print("\nYou've earned 10 points!")
 else:
     print("\nYou've earned 15 points!")
+
+# 5-6 Stage of Life
+
+age = 83
+
+if age < 2:
+    life = 'baby'
+elif age < 4:
+    life = 'toddler'
+elif age < 13:
+    life = 'kid'
+elif age < 20:
+    life = 'teenager'
+elif age < 65:
+    life = 'adult'
+else:
+     life = 'elder'
+print("You're just a " + life + ".")
