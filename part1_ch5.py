@@ -215,3 +215,11 @@ for username in user_names:
 
     else:
         print("Hello " + username + ", thank you for logging in again!")
+
+new_users = []
+
+if new_users:
+    for newuser in new_users:
+        print("Welcome, newbies!")
+else:
+    print("We need some new memebers!")
