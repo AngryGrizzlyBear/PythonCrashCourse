@@ -227,7 +227,7 @@ else:
 
 # 5-10 Checking Usernames
 
-current_users = ['tupac', 'biggie', 'graph˚ic', 'sense', 'crypto']
+current_users = ['tupac', 'biggie', 'graphic', 'sense', 'crypto']
 new_users = ['selenia', 'graphic', 'xslayerx', 'crypto', 'saladguy']
 
 
@@ -237,3 +237,15 @@ for new_user in new_users:
         print("Sorry" + new_user + ", that name is taken.")
     else:
         print("Great, " + new_user + " is still available.")
+
+numbers = list(range(1,10))
+
+for number in numbers:
+    if number == 1:
+        print("1st")
+    elif number == 2:
+        print("2nd")
+    elif number == 3:
+        print("3rd")
+    else:
+        print(str(number) + "th")
