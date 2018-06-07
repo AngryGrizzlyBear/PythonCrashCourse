@@ -216,6 +216,7 @@ for username in user_names:
     else:
         print("Hello " + username + ", thank you for logging in again!")
 
+# No users
 new_users = []
 
 if new_users:
@@ -223,3 +224,16 @@ if new_users:
         print("Welcome, newbies!")
 else:
     print("We need some new memebers!")
+
+# 5-10 Checking Usernames
+
+current_users = ['tupac', 'biggie', 'graph˚ic', 'sense', 'crypto']
+new_users = ['selenia', 'graphic', 'xslayerx', 'crypto', 'saladguy']
+
+
+
+for new_user in new_users:
+    if new_user in current_users:
+        print("Sorry" + new_user + ", that name is taken.")
+    else:
+        print("Great, " + new_user + " is still available.")
