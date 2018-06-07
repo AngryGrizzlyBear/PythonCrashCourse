@@ -205,3 +205,13 @@ for requested_topping in requested_toppings:
         print("Sorry, we don't have " + requested_topping + ".")
 
 print("\nFinished making your pizza!")
+
+# Hello admin
+user_names = ['charlie', 'stan', 'peter', 'rebecca', 'admin']
+
+for username in user_names:
+    if username == 'admin':
+        print("Hello admin, would you like to see a status report?")
+
+    else:
+        print("Hello " + username + ", thank you for logging in again!")
