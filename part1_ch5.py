@@ -167,3 +167,10 @@ if 'kiwi' in favorite_fruit:
     print("You really like kiwis!")
 if 'strawberries' in favorite_fruit:
     print("You really like strawberries!")
+
+requested_toppings = ['mushroms', 'green peppers', 'extra cheese']
+
+for requested_topping in requested_toppings:
+    print("Adding " + requested_topping + ".")
+
+print("finished making your pizza!")
