@@ -57,3 +57,6 @@ print(alien_0)
 
 del alien_0['points']
 print(alien_0)
+
+# A dictionary of similar objects
+#update: Will work on this later
