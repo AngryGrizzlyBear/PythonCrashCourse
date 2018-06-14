@@ -91,8 +91,14 @@ favorite_numbers = {
     'nana': 82,
 }
 
-print( favorite_numbers['mark'])
-print(favorite_numbers['steven'])
-print(favorite_numbers['erik'])
-print(favorite_numbers['mavis'])
-print(favorite_numbers['nana'])
+num = favorite_numbers['mark']
+print("Mark's favorite number is " + str(num) + ".")
+num = favorite_numbers['steven']
+print("Steven's favorite number is " + str(num) + ".")
+num = favorite_numbers['erik']
+print("Erik's favorite number is " + str(num) + ".")
+num = favorite_numbers['mavis']
+print("Mavis's favorite number is " + str(num) + ".")
+num = favorite_numbers['nana']
+print("Nana's favorite number is " + str(num) + ".")
+
