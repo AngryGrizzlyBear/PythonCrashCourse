@@ -81,3 +81,18 @@ print(person['first_name'].title())
 print(person['last_name'].title())
 print(person['age'])
 print(person['city'].title())
+
+# 6-2 exercise
+favorite_numbers = {
+    'mark': 23,
+    'steven': 33,
+    'erik': 53,
+    'mavis': 92,
+    'nana': 82,
+}
+
+print( favorite_numbers['mark'])
+print(favorite_numbers['steven'])
+print(favorite_numbers['erik'])
+print(favorite_numbers['mavis'])
+print(favorite_numbers['nana'])
