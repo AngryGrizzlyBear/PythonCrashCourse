@@ -68,3 +68,16 @@ favorite_languages = {
 }
 
 print("Sarah's favorite language is " + favorite_languages['sarah'].title() + ".")
+
+# Try it yourself. 6-1
+
+person = {
+    'first_name': 'stephen',
+    'last_name': 'stark',
+    'age': 82,
+    'city': 'tupacsville'
+}
+print(person['first_name'].title())
+print(person['last_name'].title())
+print(person['age'])
+print(person['city'].title())
