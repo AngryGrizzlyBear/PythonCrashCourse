@@ -269,3 +269,60 @@ print("...")
 
 # Show how many aliens have been created.
 print("Total number of aliens: " + str(len(aliens)))
+
+print("\n")
+
+# Store information about a pizza being ordered.
+pizza = {
+    'crust': 'thick',
+    'toppings': ['mushrooms', 'extra cheese']
+}
+
+# Summarize the order
+print("You ordered a " + pizza['crust'] + "-crust pizza " +
+      "with the following toppings:")
+
+for topping in pizza['toppings']:
+    print("\t" + topping)
+
+#6-7
+print("\nThis is the next segment")
+
+# Make an empty list to store people in.
+people = []
+
+# Define somepeople, and add them to the list.
+person = {
+    'first_name': 'eric',
+    'last_name': 'matthes',
+    'age': 43,
+    'city': 'sitka',
+}
+
+people.append(person)
+
+person = {
+    'first_name': 'ever',
+    'last_name': 'matthes',
+    'age': 5,
+    'city': 'sitka',
+}
+
+people.append(person)
+
+person = {
+    'first_name': 'wilie',
+    'last_name': 'matthes',
+    'age': 8,
+    'city': 'sitka',
+}
+
+people.append(person)
+
+# Display all of the information in the dictionary.
+for person in people:
+    name = person['first_name'].title() + person['last_name'].title()
+    age = str(person['age'])
+    city = person['city'].title()
+
+    print(name + ", of " + city + ", is " + age + " years old.")
