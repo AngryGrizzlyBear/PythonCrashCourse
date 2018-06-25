@@ -126,3 +126,27 @@ print("\n" + word.title() + ": " + glossary[word])
 
 word = 'dictionary'
 print("\n" + word.title() + ": " + glossary[word])
+
+# Testing something
+for key, value in glossary.items():
+    print("\nKey: " + key)
+    print("Value: " + value)
+
+# Looping through a dictionary
+
+# Looping through all key values
+
+user_0 = {
+    'username': 'efermi',
+    'fisrt': 'enrico',
+    'last': 'fermi',
+}
+
+for key, value in user_0.items():
+    print("\nKey: " + key)
+    print("Value: " + value)
+
+print("\n˚")
+
+for name, language in favorite_languages.items():
+    print(name.title() + "'s favorite language is " + language.title() + '.')
