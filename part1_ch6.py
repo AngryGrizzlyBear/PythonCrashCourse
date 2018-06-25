@@ -176,3 +176,22 @@ for name in sorted(favorite_languages.keys()):
 print("The following languages have been mentioned:")
 for language in favorite_languages.values():
     print(language.title())
+
+# 6-4
+print("\n This begins the next segment.")
+
+glossary = {
+    'string': 'A series of characters.',
+    'comment': 'A note in a program that the Python interpreter ignores.',
+    'list': 'A collection of items in a particular order.',
+    'loop': 'Work through a collection of items, one at at time',
+    'dictionary': 'A collection of key-value pairs',
+    'key': 'The first item in a key-value pair in a dictionary.',
+    'value': 'An item associated with a key in a dictionary.',
+    'conditional test': 'A comparison between two values',
+    'float': 'A numerical value with a decimal component.',
+    'boolean expression': 'An expression that evaluates to True or False.',
+}
+
+for word, definition in glossary.items():
+    print("\n" + word.title() + ": " + definition)
