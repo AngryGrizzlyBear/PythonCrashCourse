@@ -291,7 +291,7 @@ print("\nThis is the next segment")
 # Make an empty list to store people in.
 people = []
 
-# Define somepeople, and add them to the list.
+# Define some people, and add them to the list.
 person = {
     'first_name': 'eric',
     'last_name': 'matthes',
@@ -326,3 +326,44 @@ for person in people:
     city = person['city'].title()
 
     print(name + ", of " + city + ", is " + age + " years old.")
+
+# 6-8 Pets
+# Make an empty list tos tore the pets in.
+pets = []
+
+# Make individual pets, and store each one in the list.
+pet = {
+    'animal': 'python',
+    'name': 'john',
+    'owner': 'guido',
+    'weight': 43,
+    'eats': 'bugs',
+}
+
+pets.append(pet)
+
+pet = {
+     'animal type': 'chicken',
+    'name': 'clarence',
+    'owner': 'tiffany',
+    'weight': 2,
+    'eats': 'seeds',
+}
+
+pets.append(pet)
+
+pet = {
+    'animal type': 'dog',
+    'name': 'pesto',
+    'owner': 'eric',
+    'weight': 37,
+    'eats': 'shoes',
+}
+
+pets.append(pet)
+
+# Display information about each pet.
+for pet in pets:
+    print("\nHere's what I know about " + pet['name'].title() + ":")
+    for key, value in pet.items():
+        print("\t" + key + ': ' + str(value))
