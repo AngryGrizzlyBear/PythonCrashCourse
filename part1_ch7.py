@@ -34,3 +34,7 @@ if number % 2 == 0:
     print("\nThe number " + str(number) + " is even.")
 else:
     print("\nThe number " + str(number) + " is odd.")
+
+# 7-1 Exerise rent a car
+car = input("What kind of car would you like to rent?: ")
+print("Let me see if I can find you a " + car + ".")
