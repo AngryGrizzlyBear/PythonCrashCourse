@@ -47,3 +47,12 @@ if seating >= 8:
     print("\nYou will have to wait for a table.")
 else:
     print("\nWe have more than enough for your group!")
+
+# 7-3 multiples of ten
+number = input("Give me a number, please: ")
+number = int(number)
+
+if number % 10 == 0:
+    print(str(number) + " is a multiple of 10.")
+else:
+    print(str(number) + " is not a multiple of 10.")
