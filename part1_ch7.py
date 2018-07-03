@@ -38,3 +38,12 @@ else:
 # 7-1 Exerise rent a car
 car = input("What kind of car would you like to rent?: ")
 print("Let me see if I can find you a " + car + ".")
+
+# 7-2 Resturant Seating
+
+seating = input("How many people are in your dinner group?: ")
+seating = int(seating)
+if seating >= 8:
+    print("\nYou will have to wait for a table.")
+else:
+    print("\nWe have more than enough for your group!")
