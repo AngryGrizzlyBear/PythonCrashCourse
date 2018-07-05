@@ -56,3 +56,16 @@ if number % 10 == 0:
     print(str(number) + " is a multiple of 10.")
 else:
     print(str(number) + " is not a multiple of 10.")
+
+# Introducing While Loops
+current_number = 1
+while current_number <= 5:
+    print(current_number)
+    current_number += 1
+
+prompt = "\nTell me something, and I will repeat it back to you:"
+prompt = "\nEnter 'quit' to end this program. "
+message = ""
+while message != 'quit':
+    message = input(prompt)
+    print(message)
